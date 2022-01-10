@@ -1,46 +1,104 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<!-- encoding -->
-		<meta charset="UTF-8" />
-		<!-- Mobile support -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <!-- encoding -->
+    <meta charset="UTF-8" />
+    <!-- Mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- Title and SEO -->
-		<title>Стартовый шаблон</title>
-		<meta name="description" content="Описание страницы" />
-		<meta name="keywords" content="ключевые слова, фразы" />
+    <!-- Title and SEO -->
+    <title>Portofolio</title>
+    <meta name="description" content="Описание страницы" />
+    <meta name="keywords" content="ключевые слова, фразы" />
 
-		<!-- Styles -->
-		<link rel="stylesheet" href="./css/main.css" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/main.css" />
 
-		<!-- Open Graph -->
-		<!-- <meta property="og:url" content="https://webcademy.ru/" /> -->
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Туристическое агентство Форест Тревел" />
-		<meta property="og:description" content="Турпоходы по дикой природе" />
-		<meta property="og:image" content="./img/opengraph.jpg"/>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-		<!-- Favicons -->
-		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
-		<link rel="manifest" href="./img/favicon/site.webmanifest">
-		<link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#1a60cf">
-		<link rel="shortcut icon" href="./img/favicon/favicon.ico">
-		<meta name="msapplication-TileColor" content="#00aba9">
-		<meta name="msapplication-config" content="./img/favicon/browserconfig.xml">
-		<meta name="theme-color" content="#ffffff">
-	</head>
-	<body>
+    <!-- Open Graph -->
+    <!-- <meta property="og:url" content="https://webcademy.ru/" /> -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Туристическое агентство Форест Тревел" />
+    <meta property="og:description" content="Турпоходы по дикой природе" />
+    <meta property="og:image" content="./img/opengraph.jpg" />
 
-		<h1 style="text-align: center; margin-top: 35px;">
-			Hello world! HTML SCSS start template from WebCademy. 😉
-		</h1>
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./img/favicon/safari-pinned-tab.svg"
+      color="#1a60cf"
+    />
+    <link rel="shortcut icon" href="./img/favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta
+      name="msapplication-config"
+      content="./img/favicon/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
 
-		<footer class="footer">
-			Footer. Всегда внизу страницы
-		</footer>
+		<!-- header -->
+		<header class="header">
+			<div class="container">
+				<div class="header_row">
+					<div class="header_nav">
+						<a class="header-nav-item" href="#">Навыки</a>
+						<a class="header-nav-item" href="#">Портфолио</a>
+						<a class="header-nav-item" href="#">Как я работаю</a>
+						<a class="header-nav-item" href="#">Контакты</a>
+					</div>
+					<div class="header_social">
+						<a class="header_social-item" href="#"><img src="./img/header/instagram.svg" alt="instagram"></a>
+						<a class="header_social-item" href="#"><img src="./img/header/git.svg" alt="git"></a>
+				  </div>
+				</div> 
 
-	</body>
+				<div class="header_container">
+					<div class="header_content">
+						<h1 class="title-h1">Лучия Шелкова</h1>
+						<p class="header-description">Верстальщик сайтов, веб-разработчик. Оперативная верстка. Работаю 
+							с соблюдением сроков и выполнением ТЗ. </p>
+						<div class="buttons">
+							<div class="button-yellow">Познакомиться</div>
+						  <div class="button-transparent">Контакты</div>
+						</div>
+					</div>
+					<img class="header_image" hres="#" src="./img/header/header-min.png"></img>
+				</div>
+
+				<img class="header_big-image" src="./img/header/header_big-min.png"></img>
+		</header>
+			
+			
+
+    
+
+    <!-- <footer class="footer">Footer. Всегда внизу страницы</footer> -->
+  </body>
 </html>

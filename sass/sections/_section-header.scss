@@ -1,0 +1,136 @@
+.header {
+  
+}
+.container {
+  // background-color: rgb(220, 216, 216);
+}
+
+.header_row {
+  margin-top: 70px;
+  margin-bottom: 60px;
+  // background-color: greenyellow;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.header_nav {
+//  background-color: #fff;
+}
+
+.header-nav-item {
+  margin-right: 100px;
+
+  font-style: 600;
+  font-size: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.header_social {
+  // background-color: gray;
+}
+
+.header_social-item {
+  margin-right: 26px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.header_container {
+  position: relative;
+  margin-top: 46px;
+  margin-bottom: 75px;
+  // background-color: greenyellow;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.header_content {
+}
+
+.header-description {
+  margin-bottom: 30px; 
+
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-yellow {
+  margin-right: 20px;
+  height: 64px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background: rgba(251, 220, 77, 1);
+  border-radius: 50px;
+  border: none;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+
+  cursor: pointer;
+  transition: 0.3s;
+  
+  &:hover {
+    background: rgba(239, 247, 252, 1);
+    border: rgba(255, 255, 255, 0);
+  }
+  
+  &:focus {
+    outline: none;
+    background: #000;
+  }
+}
+
+.button-transparent {
+  height: 64px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background: rgba(239, 247, 252, 1);
+  border-radius: 50px;
+  border: none;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+
+  cursor: pointer;
+  transition: 0.3s;
+  
+  &:hover {
+    background: rgba(251, 220, 77, 1);
+    border: rgba(255, 255, 255, 0);
+  }
+  
+  &:focus {
+    outline: none;
+    background: #000;
+  }
+}
+
+.header_image {
+  box-sizing: border-box;
+  height: 410px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header_big-image {
+  position: absolute;
+  width: 1440px;
+  height: 759px;
+  left: 0px;
+  top: 438px;
+}
