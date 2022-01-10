@@ -378,10 +378,11 @@ body > * {
 
 .header_big-image {
   position: absolute;
+  margin-top: -150px;
+  z-index: -9;
   width: 1440px;
   height: 759px;
   left: 0px;
-  top: 438px;
 }
 
 @media (max-width: 1199px) {
