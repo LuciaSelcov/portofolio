@@ -129,8 +129,14 @@
 
 .header_big-image {
   position: absolute;
-  width: 1440px;
-  height: 759px;
-  left: 0px;
-  top: 438px;
+  margin-top: -150px;
+  z-index: -9;
+  max-width: 1440px;
+  left: 50%; 
+  transform: translate(-50%,0);
+  
+}
+
+.header_big-image img {
+  max-width: 100%;
 }
