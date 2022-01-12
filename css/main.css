@@ -171,37 +171,20 @@ legend {
 }
 
 html {
-  min-height: 100vh;
   /* sticky footer */
   scroll-behavior: smooth;
 }
 
 body {
-  min-height: 100vh;
   /* sticky footer */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   /* sticky footer */
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
   /* sticky footer */
   font-family: 'Montserrat', sans-serif;
   color: #323232;
   font-size: 16px;
-  line-height: 1.6875;
-  text-rendering: optimizeSpeed;
-  -webkit-font-smoothing: antialiased;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
 }
 
 body > * {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
   /* sticky footer */
 }
 
@@ -229,17 +212,6 @@ body > * {
 /* Utility */
 .none {
   display: none !important;
-}
-
-.visually-hidden {
-  opacity: 0;
-  visibility: hidden;
-  width: 0px;
-  height: 0px;
-  display: block;
-  margin-left: -10000px;
-  background: transparent;
-  font-size: 0;
 }
 
 /* Sticky Footer */
@@ -290,7 +262,6 @@ body > * {
 }
 
 .header_container {
-  position: relative;
   margin-top: 46px;
   margin-bottom: 75px;
   display: -webkit-box;
@@ -321,7 +292,7 @@ body > * {
           flex-direction: row;
 }
 
-.button-yellow {
+.button {
   margin-right: 20px;
   height: 64px;
   padding-left: 40px;
@@ -336,34 +307,11 @@ body > * {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.button-yellow:hover {
+.button:hover {
   background: #eff7fc;
   border: rgba(255, 255, 255, 0);
 }
-.button-yellow:focus {
-  outline: none;
-  background: #000;
-}
-
-.button-transparent {
-  height: 64px;
-  padding-left: 40px;
-  padding-right: 40px;
-  background: #eff7fc;
-  border-radius: 50px;
-  border: none;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 60px;
-  cursor: pointer;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-.button-transparent:hover {
-  background: #fbdc4d;
-  border: rgba(255, 255, 255, 0);
-}
-.button-transparent:focus {
+.button:focus {
   outline: none;
   background: #000;
 }
@@ -377,13 +325,11 @@ body > * {
 }
 
 .header_big-image {
-  position: absolute;
-  margin-top: -150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -160px;
   z-index: -9;
   max-width: 1440px;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
 }
 
 .header_big-image img {
